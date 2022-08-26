@@ -13,15 +13,23 @@
         }
         h2{
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 25px;
+            font-size: 20px;
             color: azure;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
 <body>
     <h1>Cores em css</h1>
     <p>Para entender o exércicio é bom dar uma olhada no código fonte</p>
-    <h2 style="background-color: blue;">Este título está colorido usando cores por nome</h2>
-    <h2></h2>
+    <h2 style="background-color: darkblue;">Este título está colorido usando cores por nome</h2>
+    <h2 style="background-color: #00008b;">Já este está colorido por códigos <abbr title="Hexadecimal">HEX</abbr></h2>
+    <h2 style="background-color: rgb(0, 0, 139);">e esse agui ó, é <abbr title="Red, Green, Blue">RGB</abbr> filho</h2>
+    <h2 style="background-color: hsl(240, 100%, 27%);">e para finalizarmos um boa coloração por <abbr title="hue, saturation, ligth">HSL</abbr></h2>
+    <p>As cores resultantes são exatamente as mesmas, mas o formato de representação muda conforme o padrão escolhido.<br>
+    Também é possível usar transparência, usando o formato <abbr title="(red, green, blue, alpha)">RGBA</abbr></p>
+    <h2 style="background-color: rgba(0, 0, 139, 0.5);">Neste título, o fundo azul teve eu alpha configurado para 50%</h2>
 </body>
 </html>
