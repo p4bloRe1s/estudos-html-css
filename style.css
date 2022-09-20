@@ -1,43 +1,9 @@
 @charset "UTF-08";
-/*
-paleta de cores 
-#0091FA
-#00BAE0
-#00F5E0
-#00E092
-#78FFAC
+/*cores
+#007BA1
+#004A61
+#01ACE0
+#00B6ED
+#0098C7
 */
-main{
-    background-color: aliceblue;
-    border-radius: 5px;
-    padding: 15px;
-    margin: auto;
-    width: 75%;
-}
-body{
-    background-image: linear-gradient(to right,#0091FA,#00F5E0);
-}
-h1{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    margin: auto;
-    padding: 2px;
-    width: 90%;
-    background-color: #78FFAC;
-    border-radius: 5px;
-}
 
-p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: auto;
-    padding: 4px;
-    text-align: justify;
-}
-a{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h2{
-    font-family: 'Courier New', Courier, monospace;
-    color: #0091FA;
-}
