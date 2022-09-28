@@ -13,9 +13,14 @@ h1{
     margin: 50px auto;
 }
 .tela{
-    width: 90%;
+    width: 80%;
     height: 75%;
     margin: auto;
-    background-color: #004a6191;
+    background-color: #004a613d;
     border-radius: 1%;
+}
+
+.atividades{
+    border: solid 2px black;
+    
 }
