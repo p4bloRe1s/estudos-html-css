@@ -7,104 +7,91 @@
     <title>Caixa 2</title>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
-
         body{
-            height: 100vh;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            background-image: linear-gradient(to top, #0756F0, #079AFA);
+            background-color: grey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
         }
 
         header{
-            background-color: #12C7E3;
-            box-shadow: 6px 6px rgba(255, 235, 205, 0.527);
-            margin: auto;
-            width: 73%;
-            height: 112px;
-            border-radius: 4px;
-            text-align: center;
-            padding: 8px;
-            
-        }
-        h1{
-            font-family: 'Roboto Mono', monospace;
+            background-color: aliceblue;
+            padding: 12px;
+            margin: 4px 12px 12px 12px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.349);
         }
 
-        h2{
-            text-align: center;
-            text-shadow: 2px 2px rgba(245, 245, 245, 0.568);
-            font-size: 30px;
+        nav{
+            background-color: lightgray;
+            padding: 6px;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.404);
         }
-        
-        a{
-            background-color: #07af9998;
-            margin-right: 25px;
-            border-radius: 12px;
+
+        nav > a{
             text-decoration: none;
-            color: white;
-        }
- 
-        a:hover{
-            font-size: large;
-            color: darkblue;
-            box-shadow: 4px 8px #00000054;
+            color: black;
+            padding: 10px;
         }
 
-        section.noticias{
-            background-color: #12c7e381;
-            margin: 25px;
-            padding: 22px;
+        nav > a:hover{
+            color: rgb(31, 77, 77);
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 12px;
+            margin: 12px 12px 12px 12px;
+            border-radius: 0px 10px;
+            box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.349);
+        }
+
+        main > section > article{
             text-align: justify;
-            border-radius: 4px;
-            box-shadow: 6px 6px rgba(255, 235, 205, 0.527);
-            width: 70%;
-            margin: 20px auto auto auto;
+            font-size: 17px;
+        }
+
+        main > section > article > aside{
+            background-color: lightgray;
+            padding: 4px;
+            font-style: italic;
+        }
+
+        main > section > article > aside > p{
+            padding: 0px;
+            margin: 0px;
         }
 
         footer{
-            background-color: aliceblue;
-            font-size: 20px;
+            background-color: black;
+            color: aliceblue;
             text-align: center;
-            font-weight: 900;
-            border-radius: 4px;
-            width: 73%;
-            margin: auto;
-            box-shadow: 6px 6px rgba(255, 235, 205, 0.527);
-        }
 
-
-        article > aside{
-            background-color: #12c7e3;
         }
     </style>
 </head>
 <body>
     <header>
         <span id="span01">
-            <h1>MEU SITE</h1>
+            <h1>Meu Site</h1>
         </span>
         <nav>
             <a href="#">LINK</a>
-            <a href="#">FACEBOOK</a>
-            <a href="#">TWITER</a>
-            <a href="#">YOUTUBE</a>
-            <a href="#">GITHUB</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
         </nav>
     </header>
     <main>
-        <section id="assunto">
-            
-        </section>
         <section class="noticias">
             <article>
                 <h2>Noticias do País</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae omnis corporis illum doloremque reiciendis distinctio, voluptatem quod nesciunt nemo, dolores est explicabo voluptate cupiditate molestiae repellendus minus non similique totam?</p>
                 <aside>
-                    <p>artigo por lorem da Silva Dores</p>
+                    <p>Artigo por lorem da Silva Dores</p>
                 </aside>
-            </article>
-            <article>
-
             </article>
         </section>
     </main>
