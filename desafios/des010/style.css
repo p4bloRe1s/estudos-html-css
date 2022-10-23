@@ -5,6 +5,14 @@
     src: url(fontes/idroid.otf) format('opentype');
 }
 
+header > p{
+    text-align: center;
+    }
+
+
+    header > h1{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 body{
     background-color: #84E1AD;
@@ -13,20 +21,13 @@ body{
 h1,h2{
     font-family: 'android',Arial, Helvetica, sans-serif;
 }
+
 header{
     background-image: linear-gradient(to bottom, #42e288, #15683a);
     padding-top: 10px;
     text-align: center;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
-}
-
-header > p{
-    text-align: center;
-}
-
-header > h1{
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav{
@@ -53,16 +54,6 @@ main{
     padding: 10px;
 }
 
-.t{
-    color: #2A6747;
-    margin-left: 20px;
-}
-
-.h2{
-    background-image: linear-gradient(to right, #6cd69a, white);
-    color: #2A6747;
-}
-
 img{
     display: block;
    margin: auto;
@@ -73,11 +64,7 @@ p{
     margin: 16px;
 }
 
-.youtube{
-    display: block;
-    margin: auto;
-    
-}
+
 
 iframe{
     display: block;
@@ -86,4 +73,5 @@ iframe{
 
 aside{
     background-color: #C5EBD6;
+    border-radius: 10px;
 }
