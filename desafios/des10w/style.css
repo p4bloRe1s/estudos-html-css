@@ -27,11 +27,31 @@
 }
 body{
     background-color: var(--cor0);
-    font-family: var(--padrao)
-    ;
-    
+    font-family: var(--padrao);
+    margin: 0px;
+}
+
+
+
+h1,h2{
+    font-family: var(--especial);
+    color: var(--sombra);
+}
+
+header{
+    text-align: center;
+    padding-top: 12px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--sombra));
 }
 
 header > h1{
-    color: var(--sombra);
+    font-family: var(--destaque);
+    color: whitesmoke;
+    font-size: 50px;
+
+}
+
+header > p{
+    color: whitesmoke;
+    font-size: 20px;
 }
