@@ -25,10 +25,14 @@
     --destaque: 'Bebas Neue', cursive;
 
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: var(--cor0);
     font-family: var(--padrao);
-    margin: 0px;
 }
 
 
@@ -40,8 +44,9 @@ h1,h2{
 
 header{
     text-align: center;
-    padding-top: 12px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--sombra));
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 header > h1{
@@ -55,3 +60,44 @@ header > p{
     color: whitesmoke;
     font-size: 20px;
 }
+
+nav{
+    background-color: var(--sombra);
+    padding-bottom:6px;
+}
+
+nav > a{
+    margin-left: 16px;
+    padding: 6px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: #2fa866;
+    border-radius: 4px;
+}
+
+main{
+    background-color: aliceblue;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+img{
+    
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+}
+
+
+footer{
+    background-color: var(--sombra);
+    color: aliceblue;
+    text-align: center;
+}
+
+
