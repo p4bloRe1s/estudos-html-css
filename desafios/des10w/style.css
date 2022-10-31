@@ -42,6 +42,15 @@ h1,h2{
     color: var(--sombra);
 }
 
+h1{
+    font-size: 2em;
+}
+
+h2{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-weight: 100;
+}
+
 header{
     text-align: center;
     background-image: linear-gradient(to bottom, var(--cor3), var(--sombra));
@@ -105,6 +114,45 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 
+main a{
+    padding: 2px 6px;
+    text-decoration: none;
+    background-color: var(--cor2);
+    font-weight: bolder;
+    color: var(--sombra);
+    border-radius: 2px;
+    transition-duration: .2s;
+    
+}
+
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--cor1);
+}
+
+main a:visited{
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+
+main a:active{
+    background-color: #8391e1;
+}
+.ex::after{
+    content: '\1F517';
+}
+main p{
+    padding: 20px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    word-spacing: 4px;
+}
+
+main strong{
+    color: var(--sombra);
+    font-weight: bold;
+}
 img{
     display: block;
     margin: auto;
@@ -113,6 +161,26 @@ img{
 .full{  
     min-width: 100%;
 
+}
+
+aside{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 10px #063d1e71;
+}
+aside > h3{
+    color: aliceblue;
+    background-color: var(--cor4);
+    padding: 10px;
+    margin: -10px -10px -10px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2; 
 }
 
 footer{
